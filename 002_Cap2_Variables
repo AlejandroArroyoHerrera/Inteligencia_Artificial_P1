@@ -1,7 +1,7 @@
 '''Alejandro Arroyo Herrera
 Grupo 6E1   registro 21310199
 clase de Inteligencia Artificial
-Ejercicio del capitulo 3 del curso'''
+Ejercicio del capitulo 2 del curso'''
 
 #en esta practica tenemos la mision de aprender a crear las variables en un codigo
 impresion='No se como hacer las practicas' #creamos una variable y le asignamos la cadena, no es necesario especificar de que tipo de variable se trata
