@@ -1,0 +1,15 @@
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial'''
+
+#este codigo es para demostrar que sabemos concatenar
+
+palabra1 = "demostracion" #declaramos una variable primera
+
+palabra2 = "sobre" #declaramos y definimos la segunda variable
+
+palabra3 = "practicas" #declaramos y definimos nuestra ultima palabra
+
+UnirPalabras = palabra1 + " "+palabra2 + " "+palabra3 + ", si las hice yo profe :)" #asiganamos una ultima variable en la cual vamos a concatenar o unir todas nuestras variales tipo string, ademas de agrgar una ultima string en la cual no se asgino a una variable anterior
+
+print(UnirPalabras)  #se imprime la ultima variable que contiene las palabras concatenadas
