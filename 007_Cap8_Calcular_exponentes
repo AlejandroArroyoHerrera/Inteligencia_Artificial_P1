@@ -1,0 +1,12 @@
+
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 8 del curso'''
+
+#esta pracitca es para demostrar como se hace para calcular exponentes
+
+exponente = 3 ** 5 #aqui declaramos un variable y le asignamos el dato en el cual vamos a poner ya el exponente
+print(exponente) #vamos a imprimir la variable que hemos declarado y nos mostrara el resultado del exponente
+
