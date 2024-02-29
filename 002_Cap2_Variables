@@ -9,3 +9,4 @@ impresion='No se como hacer las practicas' #creamos una variable y le asignamos 
 impresion2=21310199 #cambiamos el tipo y valor de la varibale´por uno numerico
 
 print(impresion2+100) #en esta instruccion se imprime la variable ademas de sumarle cierta cantidad
+
