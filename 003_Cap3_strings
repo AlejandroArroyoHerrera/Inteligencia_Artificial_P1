@@ -1,0 +1,13 @@
+'''Alejandro Arroyo Herrera
+grupo 6E1 regstro 21310199
+Curso de phyton
+materia de Inteligencia Artificial'''
+
+#este codigo tiene la finalidad de demostrar que sabemos crear cadenas de texto
+
+'esto es una cadena de texto' #declaramos una cadena de texto sin asignarlo a ninguna variable
+"este es otro modo de crear una cadena de texto" #a diferencia de la primera, esto tiene dos comillas, lo cual tambien es un modo de realizar una cadena de texto
+
+CarmenCadenita="la 'cadena' de carmen se ha perdido" #asignamos una variable y le asignamos que sera una string y le decimos que dice esa string, ademas le decimos que una palabra la ponga en comillas
+
+print(CarmenCadenita)  #por ultimo hacemos que se imprima la String que tiene la varible 
