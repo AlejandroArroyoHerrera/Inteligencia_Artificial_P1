@@ -1,0 +1,21 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 5 del curso'''
+
+
+#esta practica nos llevas a utilizar los metodos upper, lower y title
+
+titulito= "inteligencia artificial" #declaramos una variable que contenga un texto sin mayusculas 
+
+print(titulito.title())  #se imprime la variable y el metodo title hara que nuestras primera letra de cada palabra sea mayuscula
+
+titulito2 = "comprobacion de letra mayuscula" #en mi caso hice una nueva varible para comnprobar que el metodo upper convierte la string de la variable en mayusculas
+
+print(titulito2.upper()) #se imprime la string de nuestra variable con el metodo uppe que convierte toda la string en mayusculas
+
+titulito3 = "COMproBacion DE letra MINUSCUla"  #creamos otra variable en la cual esta alternada entre mayusculas y minusculas para demostrar el siguiente metodo
+
+print(titulito3.lower())  #se imprime la string de la variable con el metodo lower para comprobar que convierte toda la string en minusculas
+
