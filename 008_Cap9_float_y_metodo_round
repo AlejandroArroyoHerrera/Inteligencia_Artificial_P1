@@ -1,0 +1,18 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 9 del curso'''
+
+#este codigo es para demostrar el uso de datos float y la funcion round 
+
+num1 = 10.557
+
+num2 = 5.2555
+
+print(num1+num2) #aqui se imprime la suma de ambos numeros el cual deberia dar en este caso 15.8125  
+
+num3=num1+num2 #declaramos una ultima varible que contiene el valor de las variables iniciales
+print("\nNuevo numero") #solo  separamos el numero anterior del nuevo numero a mostrar
+print(round(num3,2)) #el metodo round se encarga de mostrar solo los decimales que deseas, en este caso vamos a mostrar solo 2
+
