@@ -1,0 +1,20 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 7 del curso'''
+#esta practica es para mostrar el uso de operacion aritmeticas basicas como suma, resta, division y multiplicacion
+
+sumar=4+7 #definimos una variable con un valor y una operacion de suma
+
+restar=5-5 #definimos una variable con un valor y una operacion de resta
+
+multiplicar= 7*4 #definimos una variable con un valor y una operacion de multiplicacion
+
+dividir=9/5 #definimos una varible con un valor y una operacion de division
+
+print("Resultados \n") 
+#solo como para mostrar que son los resultados ponemos una palabra guia
+print(sumar,restar,multiplicar,dividir) 
+#aqui se muestra el resultado de cada operacion de forma individual separandolas con una coma para que no se realice ninguna operacion en la impresion
+
