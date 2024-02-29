@@ -1,0 +1,13 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 6 del curso'''
+
+#esta practica es para demostrar que hacemos saltos de linea y tabulaciones en el codigo
+
+print("En este\nRepositorio\nSabemos hacer\nLas practicas") #en esta linea definimos una frase que queremos que nos muestre, pero cada cierta longitud hacemos que haya un salto de linea
+
+print("\n\tEn este\n\tRepositorio\n\tHacemos saltos\n\tY tabulaciones") #en esta linea ademas de mostrar una frase con saltos de linea tambien la mostramos con una tabulacion
+
+#gracias por su atencion
