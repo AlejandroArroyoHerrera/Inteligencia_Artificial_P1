@@ -1,0 +1,21 @@
+
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 26 del curso'''
+
+#en este codigo veremos algunos tips para programar en python y abreviaciones
+refer=200 #declaramos variables
+ejem=150
+ejem2=300
+
+if ejem<ejem2 and ejem2>refer: print("el numero mayor es: ", ejem2) #aqui omstrarmos como abreviar un if en el caso de que solo tenga una instruccion
+
+x=100 #declaramos mas variables para mostrar otro caso 
+y=200 
+z=300
+
+if x >= z or y >= z: print("el numero mayor es 300")  #en esta condicionante se comparan los valores y tambien se agrega un operador logico
+else: print("se ejecuta un else")   #en caso de que no se cumpla la condicion anterior vamos a mostrar este mensaje y nuevmente abreviamos el else porque solo tiene una instruccion
+    
