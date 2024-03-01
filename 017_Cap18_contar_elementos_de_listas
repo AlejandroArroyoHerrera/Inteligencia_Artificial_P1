@@ -1,0 +1,12 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 13 del curso'''
+#en este codigo se muestra como podemos contar la cantidad de elementos de una lista
+
+deportes = ['Ajedrez', 'Atletismo', 'Badminton', 'Basquetbol',  'Beisbol', 'Boliche', 'Box'] #aqui declaramos la lista y asignamos significado y posicion
+
+print(len(deportes))  #imprmimimos la cantidad de elementos que tiene la lista, en este caso deberian ser 7
+
+print(deportes[6]) #si el metodo contó bien la cantidad vamos a demostrarlo mostrando el ultimo elemento, en este caso deberia mostra box
