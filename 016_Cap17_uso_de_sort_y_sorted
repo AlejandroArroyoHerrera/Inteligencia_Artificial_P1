@@ -1,0 +1,19 @@
+
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 17 del curso'''
+
+#en esta practicaa vamos a utilizar los metodos sort y sorted para ordenar listas
+
+color = ['verde','rojo','azul','cian','negro','blanco']  #declaramos una lista de datos
+color.sort()  #se ordenan los elemento de la lista por orden alfabetico
+print(color)  #se muestran los valores ordenados de forma alfabetica
+color.sort(reverse=True)  #ahora ordenamos los elementos en orden alfabetico inverso de Z-A
+print(color) #mostramos el orden de Z-A
+#como el metodo sort cambia de fornma permanente las posiciones los elementos de la lista vamos a utilizar otro metodo
+colores=['verde','rojo','azul','cian','negro','blanco']  #declaramos una nueva lista de datos
+print(sorted(colores))   #el metodo sorted acomoda por orden alfabetico los elementos de la lista por orden alfabetico sin modificarlo permanentemente
+print(colores) #nuevamente motramos los datos que en el emtodo sorted no modifica el orden de raiz de los elementos de la lista
+
