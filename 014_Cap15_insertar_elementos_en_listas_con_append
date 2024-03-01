@@ -1,0 +1,12 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 15 del curso'''
+
+color = ['verde','rojo','azul','cian','negro','blanco']  #declaramos una lista de datos
+
+color.append("naranja")  #usamos el metodo append para agregar un nuevo elemento a la lista
+
+print(color)  #se imprime la lista mostrando tambien el elemento que insertamos
+
