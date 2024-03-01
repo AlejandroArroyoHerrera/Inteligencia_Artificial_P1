@@ -1,0 +1,22 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 23 del curso'''
+# este programa es para demostrar el uso de condicionantes if, elif y else
+
+edad= int(input("¿cuantos años tienes?:  "))    #aqui se hace una consulta interactiva con el usuario, pidiendole su edad y esta se guarda en una variable apra usarlo despues
+
+if edad <= 0:  # se pone un primer condicionante
+    print("No se puede tener esa edad") #se imprime un mensaje en caso de que esta condicion se cumpla
+    
+elif edad >= 1 and edad <=17:   #se pone un segundo condicionante
+    print("Es usted menor de edad")  #se imprime este mensaje cuando la condicion se cumple
+    
+elif edad >=18 and edad <100: #se pone un  tercer condicionante
+    prinT("Es usted mayor de edad") #se imprime el mensaje cuando la condicion se cumple
+    
+elif edad<=100: #se pone un cuarto condiconante
+    print("Es usted afortunado de vivir mucho") #se imprime este mensaje cuando se cumple esta condicion
+    
+else print("Valor de edad no valido")  #en caso de que ninguna de la condiciones anteriores se cumpla se imprime el siguiente mensaje
