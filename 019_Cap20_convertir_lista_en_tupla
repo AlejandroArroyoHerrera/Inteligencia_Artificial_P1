@@ -1,0 +1,20 @@
+
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 20 del curso'''
+
+#en esta practica mostramos como se convierte una lista en una tupla y viceversa
+
+color = ['verde','rojo','azul','cian','negro','blanco']  #declaramos una lista de datos
+
+tupla = tuple(color)
+
+print(tupla)  #aqui se imprime la tupla en vez de la lista y va a cambiar los corchetes por parentesis
+
+Tcolor = ('verde','rojo','azul','cian','negro','blanco')  #declaramos una lista de datos
+
+listaColor = list(Tcolor)   #convertimos la tupla en una lista
+
+print(listaColor)  #ahora se imprimen los datos de la tupla convertida en lista, mostrandonos los corchetes caracteristicos
