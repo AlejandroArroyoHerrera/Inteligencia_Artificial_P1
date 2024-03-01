@@ -1,0 +1,14 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 14 del curso'''
+
+#en este codigo vamos a usar el metodo pop para eliminar elementos de una lista
+
+color = ['verde','rojo','azul','cian','negro','blanco']  #declaramos una lista de datos
+
+guardaList = color.pop(2) #eliminamos un elemento de lista pero lo guardamos en otra variable
+print(color)  #se imprime la lista sin el elemento que escogimos para eliminar
+
+print("el color que se elimino de la lista y se guardo en pop es: " + guardaList) #aqui mostramos nuevamente que el elemento que se guardo en pop y se elimino de la lista se ha hecho correctamente
