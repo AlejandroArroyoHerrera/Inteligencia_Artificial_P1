@@ -1,0 +1,19 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 22 del curso'''
+
+anios = 23  #declaramos una variable numerica
+
+if anios >=18:     #iniciamos el condicionante diciendo que compare la varibale numerica con el valor de 18
+    print("el usuario si es mayor de edad")  #si el if se cumple hacemos que imprima un mensaje
+else:   #si no se cumpleel if entonces se accede a la siguientes instrucciones 
+    print("el usuario NO es mayor de edad")  #cuando no se cumple el if entonces se imprime el siguiente mensaje
+    
+anios2=16  #declaramos una segunda varibale para comparar otro caso
+
+if anios2 >=18:   #iniciamos otro cindicionante comparando nuevamente con el numero 18
+    print("el usuario 2 si es mayor de edad")  #se imprime el mensaje cuando se cumple el if
+else:             #se inicial el lese en caso de no cumplir el if 
+    print("el usuario 2 NO es mayor de edad")   #se imprime le siguiente mensaje cuando se ejecuta un else
