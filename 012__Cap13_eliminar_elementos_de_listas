@@ -1,0 +1,12 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 13 del curso'''
+
+#en esta practica se muestra como se eliminan elementos de las listas cuando conocemos el elemento pero no la posicion
+
+deportes = ['Ajedrez', 'Atletismo', 'Badminton', 'Basquetbol',  'Beisbol', 'Boliche', 'Box'] #aqui declaramos la lista y asignamos significado y posicion
+deportes.remove("Basquetbol") #en esta linea usamos la funcion remove y eliminamos el elemento de la list
+deportes.remove("Box")   #nuevamente usamos la funcion y eliminamos un segundo elemento de la lista
+print(deportes)  #por ultimo mostramos la lista sin los elementos que borramos
