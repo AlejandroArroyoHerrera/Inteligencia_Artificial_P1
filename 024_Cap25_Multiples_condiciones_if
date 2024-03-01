@@ -1,0 +1,21 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 25 del curso'''
+
+print("Seleciona la carrera que desea:\n\n1. Mecatronica\n2.Industrial\n3.Civil\n4.Sistemas Electronicos")  #hacemos que un menu se imprima en la consola
+
+entrada = int(input('Introduce un numero del 1 al 4:\n'))   #le pedimos al usuario que ingrese una opcion del menu y esta se guarda en una variable
+
+if entrada == 1:  #ponemos una condicionante
+    print('Has seleccionado la opcion Mecatronica.')    #si la primera condicion se cumple se imprime el siguiente mensaje
+if entrada == 2: #ponemos otra condicionante 
+    print('Has seleccionado la opcion Industrial.') #si esta condicion se cumple se imprime el siguiente mensaje 
+if entrada == 3:    #ponemos una tercera condicion
+    print('Has seleccionado la opcion Civil.')  #si la condicion se cumple se imprime el mensaje seleccionado
+if entrada == 4:    #ponemos una ultima condicion 
+    print('Has seleccionado la opcion Sistemas Electronicos.')  # si la condicion se cumple se imprime el mensaje seleccionado
+    
+else:   #ponemos una condicion por si las demas condiciones no cumplen
+    print("esta opcion es invalida")  #en caso de que ninguna condicion en el menu se cumpla, se imprime este mensaje
