@@ -1,0 +1,15 @@
+
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 12 del curso'''
+
+#con esta practica se demuestra como eliminal listas con una funcion llamada del
+
+deportes = ['Ajedrez', 'Atletismo', 'Tochito', 'Voleibol'] #aqui declaramos la lista y asignamos significado y posicion
+
+del deportes[-2] #aqui usamos la funcion para elminar el elementos que deseamos cuando conocemos su posicion
+
+print(deportes)  #por ultimo se imprime la lista para ver los elementos que ocntiene y podremos ver que se elimino el elemento que pedimos
+
