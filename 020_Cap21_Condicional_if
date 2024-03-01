@@ -1,0 +1,15 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 21 del curso'''
+
+#en esta practica vamos a demostrar el uso del condicional if
+
+num1=7   #declaramos una primer variable
+num2= 14  #se declara una segunda variable
+
+if num1 != num2:    #se pone una condicionante en la cual se ejectua cuando los numeros sean diferentes
+    print("se ha desarrollado un if.")   #se imprime un mensaje demostrando que el if se ejecuta, si no fuera asi se salta todo el codigo dentro del condicionante
+    
+ 
