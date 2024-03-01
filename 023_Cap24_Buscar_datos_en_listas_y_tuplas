@@ -1,0 +1,13 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 14 del curso''' 
+
+entrada= input("Introduce el nombre de una marca de autos: \n") #se introduce el dato a buscar preguntandole alm usuario
+autos=["Toyota","Nissan","Honda","Kia","Hyundai","Ferrari"] #a una varibale le asignamos los valores, en este caso los elementos de las listas
+if entrada in autos:   #ponemos el condicionante el cual compara el dato que nos dio el usuario con la lista
+    print('La marca de autos esta en la lista') #como el dato que otorga el usuario se encuentra en la lista se ejecuta el mensaje 
+    
+else:  #en caso de que no se encuentre el dato en la lista se ejecuta el else
+    print("La marca que buscas no esta en la lista")    #si se ejecuta el else se imprime el siguiente mensaje
