@@ -1,0 +1,12 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 10 del curso'''
+
+#en este codigo vamos a realizar y presentar una lista
+
+autos=["Toyota","Nissan","Honda","Kia"] #a una varibale le asignamos los valores, en este caso los elementos de las listas
+
+print(autos[3])  #como tenemos una lista, vamos a imprimir el elemento que se encuentra en la posicion 3, en este caso es kia y se imprime de la variable autos
+
