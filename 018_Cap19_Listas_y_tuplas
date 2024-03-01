@@ -1,0 +1,26 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 19 del curso'''
+
+ListaColor = ['verde','rojo','azul','cian','negro','blanco']  #declaramos una lista de datos
+print(ListaColor)  #se imprimen los datos de la lista
+TuplaColor = ('verde','rojo','azul','cian','negro','blanco')  #declaramos una lista de datos con una tupla, por eso la diferencia entre corchetes y parentesis
+print(TuplaColor)  #se imprimen los datos de la tupla
+
+tuplaNum=[10,20,30]     #definimos una tupla nueva
+print("El resultado de la operacion es: ")  #se imprime un mensaje para indicar el resultado
+print(tuplaNum[0] + tuplaNum[1] + tuplaNum[2])  #se hace una operacion con los datos de la tupla y se indica el resultado
+
+ListaColor.append("naranja") #agregamis un elemento a la lista
+print(ListaColor)       #mostramos nuevamente la lista de color agregando un nuevo elemento
+
+tupla = (60,)  #en esta parte asignamos una tupla, pero para que la reconozca el lenguaje agregamos una coma
+
+
+
+
+
+
+
