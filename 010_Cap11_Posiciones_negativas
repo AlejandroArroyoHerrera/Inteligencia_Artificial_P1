@@ -1,0 +1,13 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 11 del curso'''
+
+
+#este codigo es para mostrar las posiciones negativas en las listas
+
+deportes = ['Ajedrez', 'Atletismo', 'Badminton', 'Basquetbol',  'Beisbol', 'Boliche', 'Box', 'Ciclismo', 'Fronton', 'Futbol', 'Halterofilia', 'Handball', 'Judo', 'Karate', 'Lucha', 'Natacion', 'Tenis', 'Tochito', 'Voleibol'] #aqui declaramos la lista y asignamos significado y posicion
+
+print('el antepenultimo elemento es: ' +deportes[-3]) #aqui se imprime el valor que se encuentre en la posicion 3 antes de que se termine la lista, digamos que es como un conteo inverso comenzando del final de las posiciones de la lista
+
