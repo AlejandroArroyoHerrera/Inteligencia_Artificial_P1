@@ -1,0 +1,14 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 29 del curso'''
+
+#en este codigo se demuestra el uso del ciclo for
+
+autos=["Toyota","Nissan","Honda","Kia"] #a una varibale le asignamos los valores, en este caso los elementos de las listas
+
+for x in autos: #comenzamos el ciclo for haciendo que muestre los datos de la lista
+    print(x)    #aqui es donde muestra en la consola los datos de la lista hasta terminarlos
+    
+  
