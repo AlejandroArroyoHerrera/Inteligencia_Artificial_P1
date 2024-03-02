@@ -1,0 +1,12 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 30 del curso'''
+
+#aqui demostraremos el uso de una funciona llamada range en el bucle for 
+
+print("Lista de numeros")   #imprimimos un mensaje el cual avisa que se imprime una serie de puntos
+
+for x in range(15,25):  #el ciclo for va a imprimir numeros en un rango de 15 a 25
+    print(x)            #este print nos muestra los numeros en los cuales sigue el conteo
