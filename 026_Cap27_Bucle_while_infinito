@@ -1,0 +1,24 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 27 del curso'''
+
+#aqui demostraremos el uso de el ciclo while
+contador = 1
+
+while contador <=10:    #aqui iniciamos nuestro bucle while 
+    print(contador)     #como el codigo si ejecuta el while se comienzza a imprimir el valor de la variable
+    contador += 1       #comenzamos a aumentar el valor de la varible inicial hasta que sea igual a la cantidad deseada
+    
+
+frase="Aqui se escribe lo que se repite"        #vamos a declarar strings para mostrarlas inicialmente
+frase +="Introduce la palabra 'salir' para terminar el programa\n" #una variable la cual indica como salir del bucle while controlado
+    
+mensaje = "" #declaramos la variable que ira cambiando conforme el usuario ingresa palabras o frases
+    
+while mensaje != "salir":  #comenzamos el ciclo while comparando la frase que ingresa el usuario con una palabra clave para terminar el ciclo
+   mensaje =input(frase)       #aqui el usuario ingresa la frase que se va a imprimir a continuacion
+   print(mensaje)           #se imprime la frase o palabra que ingresa el usuario
+
+print("Gracias por utilizar el programa") #cuando se termine el ciclo while se va a imprimir una frase de despedida
