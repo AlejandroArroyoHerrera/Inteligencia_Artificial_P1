@@ -1,0 +1,19 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 28 del curso'''
+
+#en este codigo haremos un ciclo while agregando break y continue
+contador = 1
+
+while contador <=10:    #aqui iniciamos nuestro bucle while 
+    print(contador)     #como el codigo si ejecuta el while se comienzza a imprimir el valor de la variable
+    contador += 1       #comenzamos a aumentar el valor de la varible inicial hasta que sea igual a la cantidad deseada
+    if contador == 5:   #agregamos un condicionante para demostrar el continue
+        print("El primer condicionante se ha cumplido") #imprimimos una marca para decir que se cumplio el condicionante
+        continue #se ejecuta el continue
+    if contador == 10:  #agregamnos un segundo condicionante para demostrar el break
+        print("El segundo condicionante se ha cumplido")    #mostramos un ultimo mensaje para decir que el condicionante se cumplio y el break hara terminar el ciclo
+    
+print("El programa ha terminado") #un mensaje de despedida
