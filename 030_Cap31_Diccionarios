@@ -1,0 +1,21 @@
+
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 25 del curso'''
+#en este capitulo vamos a observar como funcionan los diccionarios y como se puede hacer una lista con ellos orientadoa objetos enn programacion 
+auto = {    #asignamos el nmbre al diccionario primero
+    "Categoria": "Sedan",       #aqui vamos a comenzar a crear todos los "conceptos que nosotros deseamos que contenga
+    "Modelo": "Honda Civic",
+    "Precio": "300000"
+    }   #con estos corchetes es commo se diferencia un diccionario de una lista, en esta parte ya cerramos los elementos del diccionario
+
+auto2 = {   #creamos un segundo diccionario orientado al mismo tema de los autos 
+    "Categoria":  "Pickup", #comenzamos a agregar los elementos que deseamos que contenga
+    "Modelo": "Ranger", 
+    "Precio": "300000"
+    }   #nuevamente cerramos la declaracion del diccionario con conrchete
+
+consulta = auto["Modelo"],auto["Precio"],auto2["Modelo"],auto2["Precio"] #aqui vamos a decir que en euna variebale se guarden algunos datos concatenados de los diccionarios para mostrarlos despues
+print(consulta) #para finalizar vamos a mostrar los datos concatenados que guardamos en la ultima variable
