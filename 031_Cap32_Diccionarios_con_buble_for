@@ -1,0 +1,31 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 32 del curso'''
+
+#en este capitulo vamos a observar como funcionan los diccionarios y como se puede hacer una lista con ellos orientadoa objetos enn programacion 
+auto = {    #asignamos el nmbre al diccionario primero
+    "Categoria": "Sedan",       #aqui vamos a comenzar a crear todos los "conceptos que nosotros deseamos que contenga
+    "Modelo": "Honda Civic",
+    "Precio": "300000"
+    }   #con estos corchetes es commo se diferencia un diccionario de una lista, en esta parte ya cerramos los elementos del diccionario
+
+auto2 = {   #creamos un segundo diccionario orientado al mismo tema de los autos 
+    "Categoria":  "Pickup", #comenzamos a agregar los elementos que deseamos que contenga
+    "Modelo": "Ranger", 
+    "Precio": "400000"
+    }   #nuevamente cerramos la declaracion del diccionario con conrchete
+
+auto["Precio"] = "350 000"  #cambiamos el valor de uno de nuestros items del diccionario por otro 
+auto2["Precio"] = "450 000" #cambiamos el valor de uno de los items del segunod diccionario
+
+for concepto, valor in auto.items():    #creamos un ciclo for para mostrar los conceptos del diccionario de uno en uno
+    print(concepto, ": ",valor)         #se imnprimen los strings que contiene el diccionario por medio del ciclo for
+
+print("\n")         #solo por formalidad y estetica hacemos un salto de linea para diferenciar los datos de cada diccionario
+
+for concepto, valor in auto2.items():   #se abre un nuevo ciclo for para mostrar los datos de nuestro segundo diccionario
+    print(concepto,": ",valor)          #de nueva cuenta se imprimen los strings que contienen los items del diccionario
+    
+
