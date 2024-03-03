@@ -4,7 +4,7 @@ Grupo 6E1   registro 21310199
 clase de Inteligencia Artificial
 Ejercicio del capitulo 32 del curso'''
 
-#en este capitulo vamos a observar como funcionan los diccionarios y como se puede hacer una lista con ellos orientadoa objetos enn programacion 
+#en este capitulo vamos a observar como funcionan los diccionarios y como se puede crear un ciclo for con los elementos del diccionario
 auto = {    #asignamos el nmbre al diccionario primero
     "Categoria": "Sedan",       #aqui vamos a comenzar a crear todos los "conceptos que nosotros deseamos que contenga
     "Modelo": "Honda Civic",
