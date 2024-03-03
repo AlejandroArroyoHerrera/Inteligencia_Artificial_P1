@@ -1,0 +1,62 @@
+
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 33 del curso'''
+
+#en este capitulo vamos a observar como funcionan los diccionarios y como se puede modificar, añadir y eliminar conceptos con diferentes metodos
+
+auto = {    #asignamos el nmbre al diccionario primero
+    "Categoria": "Sedan",       #aqui vamos a comenzar a crear todos los "conceptos que nosotros deseamos que contenga
+    "Modelo": "Honda Civic",
+    "Precio": "300 000"
+    }   #con estos corchetes es commo se diferencia un diccionario de una lista, en esta parte ya cerramos los elementos del diccionario
+
+auto2 = {   #creamos un segundo diccionario orientado al mismo tema de los autos 
+    "Categoria":  "Pickup", #comenzamos a agregar los elementos que deseamos que contenga
+    "Modelo": "Ranger", 
+    "Precio": "400 000"
+    }   #nuevamente cerramos la declaracion del diccionario con corchete
+
+
+
+print(len(auto)+len(auto2)) #con este print vamos a imprimir la longitud de los elementos de los diccionarios
+
+auto.pop("Categoria")   #vamos a comprobar que podemos eliminar elementos del diccionario con el metodo pop
+print(auto)             #vamos a imprimir el diccionario para demostrar que el metodo si ha eliminado lo que deseamos
+
+del auto2["Precio"]     #esta es otra forma de eliminar un elemento del diccionario
+print(auto2)            #se imprime el diccionario para comprobar que se ha eliminado el elemento
+
+auto.clear()       #vamos a eliminar todos los elementos que contiene el diccionario sin borrar completamente el diccionario
+print(auto)     #vamos a comprobar que los elementos del diccionario se han eliminado completamente
+
+auto2["Color"]="Blanco"      #vamos a agregar un elemento mas a nuestro segundo diccionario
+print(auto2)        #vamos a imprimir el segundo diccionario para comprobar que hemos agregado otro elemento al diccionario
+
+copiaAuto2=auto2.copy()     #vamos a copiar un diccionario completamente igual a como esta pero hacindo otro diccionario directamente
+print(copiaAuto2)           #se imprime la varibale que ha copiado al diccionario para mostrar que se ha copiado tambien 
+copia2Auto2=dict(copiaAuto2)    #se prueba otro metodo para copiar directamente los elementos del diccionario
+print(copia2Auto2)          #se imprime la variable para mostrar que el diccionario si se ha copiado satisfactoriamente
+
+
+auto3=dict(Categoria = "Hatchback", #vamos a crear un nuevo diccionario con el metodo dict para ir agregando los elementos que va a contener
+           Modelo= "Mazda 3",          #agregamos los elementos, en este caso estamos trabajando con 3
+           Precio= "290 000")           #agregamos le ultimo elemento y cerramos la instruccion del metodo
+
+print(auto3)            #se imprime el ultimo diccionario que hemos creado con el metodo dict para comprobar que se ha creado correctamente
+
+auto4=("Categoria","Modelo","Precio")   #se declara otro diccionario con elementos pero sin valor o conceptos en ellos
+
+auto4 = dict.fromkeys(auto4)    #se propone que los elementos sin valor ni concepto tengan una leyenda de none en caso de que no tengan valor
+print(auto4)                    #se imprime el ultimo diccionario y se comprueba que tienen una leyenda de none
+
+auto4=dict.fromkeys(auto4,"Vacio")      #determinamos que el mensaje que se muestre cuando esta un concepto vacio sea la palabra vacio
+print(auto4)        #se imprime para demostrar que la palabra se escribe cuando no tiene concepto un elemento
+    
+vistaAuto=auto2.keys()      #vamos a guardar en esta varible solo los elementos del diccionario de auto2
+print(vistaAuto)            #se muestra el nombre de los elementos que contiene el diccionario pero sin los valores de estos 
+
+auto3.update({"Color": "Negro"}) #con otro metodo o funcion agregamos un nuevo elemento a uno de los diccionarios que estamos usando 
+print(auto3)    #se imprime el diccionario ya con el nuevo elemento que agregamos
