@@ -1,0 +1,14 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 36 del curso'''
+
+#en este codigo vamos a  mostrar como funcionan los argumentos en las funciones
+print("Numero de alumnos")      #se imprime como un titulo que nos de una idea de lo que nos muestra el programa
+
+def alumnos(**kwargs):     #se define la funcion con los kwargs como elementos a utilizar 
+    print("Este es el alumno 1: "+kwargs["alumno1"]+"\nEste es el alumno 2: "+kwargs["alumno2"]+"\nEste es el alumno 3: "+kwargs["alumno3"]+"\nEste es el alumno 4: "+kwargs["alumno4"])
+    #hacemos las instrucciones de la funcion mostrando un mensaje con cada uno de los kwargs
+
+alumnos(alumno1="Juan",alumno2="Teofilo",alumno3="Panfilo",alumno4="Cruzito")    #vamos a crear una lista de elementos que nos funcionara como los argumentos que tomamos como kwargs
