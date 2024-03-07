@@ -1,0 +1,17 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 35 del curso'''
+#en este codigo vamos a  mostrar como funcionan los argumentos en las funciones
+print("Cambio de carrera")      #se imprime como un titulo que nos de una idea de lo que nos muestra el programa
+
+def alumnos_carrera(CarrAct,CarrAnt,*args):     #se define la funcion con 2 variable, ademas de agregar un espacio para los argumentos
+    print("Carrera anterior: "+CarrAnt)     # dentro de la funcion vamos a imprimir un par de mensajes que tambien tomaran el elemnto de una variable de la funcion
+    print("Carrera Actual: "+CarrAct+"\nPara los alumnos:")     #este es el segundo mensaje que nos muestra la funcion y que toma la segunda variable de la funcion 
+    for x in args:              #dentro de la funcion agregamos un for que nos vaya mostrando los argumentos
+        print("Alumno: "+ x)    #este es el mensaje que se mmostrara junto con los argumentos 
+
+lista_alumnos=("Juan","Teofilo","Panfilo","Cruzito")    #vamos a crear una lista de elementos que nos funcionara como los argumentos
+
+alumnos_carrera("Mecatronica","Psicologia",*lista_alumnos)  #vamos a llamara a la funcion organizando cada uno de los elementos en el espacio donde corresponde
