@@ -1,0 +1,19 @@
+
+'''Alejandro Arroyo Herrera
+Grupo 6E1   registro 21310199
+clase de Inteligencia Artificial
+Ejercicio del capitulo 34 del curso'''
+
+#en este codigo vamos a reconocer las funciones y utilizarlas en un programa para 
+print("Carreras nivel ingenieria: \n")  #imprimimos un mensaje que va a hablar sobre la funcion del programa, este ,muestra las carreras que existen en ceti
+
+def carreras(Nombre):       #definimos la funcion que vamos a utiliazr en todos los elementos
+    print("Ingenieria "+ Nombre)    #la funcion va a imprimir un mensaje que diga ingenieria y agregar el elemento que despues se definira
+    
+carreras("Mecatronica")     #comenzamos a agregar elementos que se van a añadir a la funcion
+carreras("Inductrial")      #agregamos otro elemento 
+carreras("en Desarrollo de Software")   #nuevamente otro elemento que llama a la funcion
+carreras("en Diseno Electronico y Sistemas Inteligentes")   #seguimos agregando elementos que van a utilizar la funcion
+carreras("Civil Sustentable")       #agregamos los ultimos elementos o cadenas que van a llamar la funcion
+carreras("en Tecnologia de Software")   #agregamos el ultimo elemento que llama la funcion
+
